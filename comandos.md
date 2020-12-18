@@ -8,6 +8,11 @@
 
 </br>
 
+## Eliminar conexiones Network
+	> docker network rm nombre_de_la_conexion
+
+</br>
+
 * Para asignarle un puerto en nuestra pc (traducir el puerto interno al de la pc)
 	> docker run -p 3000:80 nginx
 
