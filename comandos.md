@@ -1,10 +1,10 @@
 ## Levantar una imagen
 
-docker-compose up -d
+	> docker-compose up -d
 
 
 ## Listar conexiones Network
-docker network ls
+	> docker network ls
 
 </br>
 
