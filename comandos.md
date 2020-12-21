@@ -10,6 +10,13 @@
 ```
 <br/>
 
+## Entrar a un  contenedor 
+Una vez listados los contenedores, podremos ver una informacion de cada uno.  entre esta informacion esta el id del contenedor. Para levantar el contenedor debemos tipear ese id
+```
+> docker network ls
+```
+<br/>
+
 ## Listar conexiones Network
 ```
 > docker network ls
