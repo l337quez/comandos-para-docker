@@ -1,12 +1,19 @@
 ## Levantar una imagen
-
-	> docker-compose up -d
-
+```
+> docker-compose up -d
+```
+<br/>
+## Listar imagenes levantadas
+```
+> docker ps
+```
+<br/>
 
 ## Listar conexiones Network
-	> docker network ls
-
-</br>
+```
+> docker network ls
+```
+<br/>
 
 ## Eliminar conexiones Network
 	> docker network rm nombre_de_la_conexion
