@@ -13,7 +13,7 @@
 ## Entrar a un  contenedor 
 Una vez listados los contenedores, podremos ver una informacion de cada uno.  entre esta informacion esta el id del contenedor. Para levantar el contenedor debemos tipear ese id
 ```
-> docker network ls
+docker exec -i -t aqui_va_el_id /bin/bash
 ```
 <br/>
 
