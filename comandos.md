@@ -25,6 +25,7 @@ docker exec -i -t aqui_va_el_id /bin/bash
 
 ## Salir de un contenedor sin detener su ejecucion
 debemos hacer una combinacion de teclas CTRL + P + Q
+
 <br/>
 
 ## Salir de un contenedor 
