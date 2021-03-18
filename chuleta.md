@@ -59,16 +59,57 @@ en un puerto interno del contenedor.* Para asignarle un puerto en nuestra pc (tr
 </br>
 
 	> docker run -p 80:80 -d nginx* Para eliminar todos los contenedores
+
+</br>
+
 	> docker rm $(docker ps -aq)* Podemos ejecutar un contenedor dándole un nombre personalizado
+
+</br>
+
 	> docker run -d -p 3306:3306 --name mydatabase mysql* Para listar las imagenes que nos hemos descargado
+
+</br>
+
 	> docker images* Para eliminar una imagen
+
+</br>
+
 	> docker rmi id_imagenPara eliminar una imagen esta no puede estar siendo utilizada en un contenedor* Listar id de las imagenes
+
+</br>
+
 	> docker images -aq* Para copiar archivos dentro de un contenedor. Si por ejemplo queremos agregar archivos dentro de una carpeta del un contenedor de un servidor nginx usamos -v
+
+</br>
+
 	> docker run -p 80:80 -d -v /carpeta/origen:/carpeta/destino nginx* Si agregamos :ro el interior será de solo lectura
+
+</br>
+
 	> docker run -p 80:80 -d -v /carpeta/origen:/carpeta/destino:ro nginx* Ejecutar un programa interno de un contenedor
+
+</br>
+
 	> docker exec -it nombre_contenedor nombre_programa* Si agregamos
+
+</br>
+
 	> docker run -p 80:80 -d -v /carpeta/origen:/carpeta/destino nginx* Para crear una imagen
+
+</br>
+
 	> docker build -t wepabackend .* Para detener todos los contenedores
+
+
+</br>
+
     > docker stop $(docker ps -a -q)////////////////////
-* Docker compose
+
+
+</br>
+
+#### Docker compose
+
+</br>
+
     > docker-compose up -d
