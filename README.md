@@ -1,6 +1,14 @@
 # Informacion basica del uso de Docker
 </br>
 
+#### Correr Servicio en Docker
+
+> systemctl start docker.service
+ 
+> systemctl enable docker.service
+
+
+
 para correr 
 npm start
 ahora debe existir el .env
