@@ -89,3 +89,11 @@ Para eliminar una imagen esta no puede estar siendo utilizada en un contenedor
 
 * Para detener todos los contenedores
     > docker stop $(docker ps -a -q)
+
+<br/>
+
+## Entrar a mongo dentro de un contendor
+```
+> mongo --username username --password password
+```
+<br/>
