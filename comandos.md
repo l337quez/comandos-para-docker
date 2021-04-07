@@ -15,6 +15,10 @@ Una vez listados los contenedores, podremos ver una informacion de cada uno.  en
 ```
 docker exec -i -t aqui_va_el_id /bin/bash
 ```
+o puede ser 
+```
+docker exec -it aqui_va_el_id /bin/bash
+```
 <br/>
 
 ## Listar conexiones Network
