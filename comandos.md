@@ -102,3 +102,8 @@ Para entrar a mongo en un contenedor, debemos colocar el username y la clave des
 > mongo --username username --password password
 ```
 <br/>
+
+## Reiniciar un contenedor
+```
+> sudo docker restart nombre_del_container
+```
