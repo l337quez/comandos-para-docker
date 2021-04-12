@@ -120,10 +120,23 @@ Con el siguieten comando detenemos todos los contenedores
 
 <br/>
 
+
+```
+> sudo docker stop nombre_del_contenedor
+```
+
+<br/>
+
 ## Eliminar un contenedor
 Con el siguieten comando ELIMINAMOS todos los contenedores
 ```
 > sudo docker rm $(docker ps -a -q)
+```
+
+<br/>
+
+```
+> sudo docker rm nombre_del_contenedor
 ```
 
 <br/>
