@@ -101,9 +101,29 @@ Para entrar a mongo en un contenedor, debemos colocar el username y la clave des
 ```
 > mongo --username username --password password
 ```
+
 <br/>
 
 ## Reiniciar un contenedor
+
 ```
 > sudo docker restart nombre_del_container
 ```
+
+<br/>
+
+## Detener un contenedor
+Con el siguieten comando detenemos todos los contenedores
+```
+> sudo docker stop $(docker ps -a -q)
+```
+
+<br/>
+
+## Eliminar un contenedor
+Con el siguieten comando ELIMINAMOS todos los contenedores
+```
+> sudo docker rm $(docker ps -a -q)
+```
+
+<br/>
