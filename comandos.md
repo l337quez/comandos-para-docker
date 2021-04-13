@@ -153,3 +153,18 @@ Para imprimir un log debemos  poner esto en el codigo
 Logger.info(`--------> ${nombre_variable}`, 'texto');
 ```
 
+<br/>
+
+## Detener todos los contenedores usando docker compose
+```
+sudo docker-compose down
+```
+
+<br/>
+
+## Levantar todos los contenedores usando docker compose
+```
+sudo docker-compose build
+```
+
+<br/>
