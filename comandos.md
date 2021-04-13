@@ -140,3 +140,16 @@ Con el siguieten comando ELIMINAMOS todos los contenedores
 ```
 
 <br/>
+
+## Para ver los Logs de un contenedor
+```
+> sudo docker logs nombre_contenedor
+```
+
+<br/>
+
+Para imprimir un log debemos  poner esto en el codigo
+```
+Logger.info(`--------> ${nombre_variable}`, 'texto');
+```
+
