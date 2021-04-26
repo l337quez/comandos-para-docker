@@ -168,3 +168,10 @@ sudo docker-compose build
 ```
 
 <br/>
+
+## Ver las imagenes 
+```
+sudo docker imagenes
+```
+
+<br/>
