@@ -175,3 +175,10 @@ sudo docker imagenes
 ```
 
 <br/>
+
+## Eliminar imagenes
+```
+sudo docker rmi nombre_imagene
+```
+
+<br/>
