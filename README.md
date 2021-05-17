@@ -1,5 +1,9 @@
-# Informacion basica del uso de Docker
-</br>
+### Mis Apuntes de Nest JS
+By: Ronal Forero
+
+<p align="center"><img src="https://github.com/l337quez/nest-js-mis-notas/blob/main/images/nest-js.png"></p>  
+
+ <br/>
 
 #### Correr Servicio en Docker
 
