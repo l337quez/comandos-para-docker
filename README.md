@@ -7,7 +7,7 @@ By: Ronal Forero
 
 ### Índice 
 * [Correr servicio de Docker](#item1)
-
+* [Levantar Contenedor](#Levantar_Contenedor)
 
 
  
@@ -37,13 +37,14 @@ Hay una herramienta llamada docker compouse, el encargado de leer los archivos .
 </br>
 
 
-## Levantar una imagen
+<a name="Levantar_Contenedor"></a>
+## Levantar un Contenedor
 ```
 > docker-compose up -d
 ```
 <br/>
 
-## Listar imagenes levantadas
+## Listar contenedores levantados
 ```
 > docker ps
 ```
@@ -210,7 +211,7 @@ sudo docker-compose build
 
 ## Ver las imagenes 
 ```
-sudo docker imagenes
+sudo docker images
 ```
 
 <br/>
