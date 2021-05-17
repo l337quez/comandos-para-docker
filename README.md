@@ -1,7 +1,7 @@
-### Mis Apuntes de Nest JS
+### Mis Apuntes de Docker
 By: Ronal Forero
 
-<p align="center"><img src="https://github.com/l337quez/nest-js-mis-notas/blob/main/images/nest-js.png"></p>  
+<p align="center"><img src="https://github.com/l337quez/comandos-para-docker/blob/main/images/docker.png"></p>  
 
  <br/>
 
