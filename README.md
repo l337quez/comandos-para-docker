@@ -8,7 +8,8 @@ By: Ronal Forero
 ### Índice 
 * [Correr servicio de Docker](#item1)
 * [Levantar Contenedor](#Levantar_Contenedor)
-
+* [Listar imagenes creadas](#view_images)
+* [Eliminar imagenes](#delete_images)
 
  
  <br/>
@@ -209,6 +210,8 @@ sudo docker-compose build
 
 <br/>
 
+
+<a name="view_images"></a>
 ## Ver las imagenes 
 ```
 sudo docker images
@@ -216,6 +219,7 @@ sudo docker images
 
 <br/>
 
+<a name="delete_images"></a>
 ## Eliminar imagenes
 ```
 sudo docker rmi nombre_imagene
