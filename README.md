@@ -10,7 +10,7 @@ By: Ronal Forero
 * [Levantar Contenedor](#Levantar_Contenedor)
 * [Listar imagenes creadas](#view_images)
 * [Eliminar imagenes](#delete_images)
-
+* [Ver logs del contenedor](#view_logs)
  
  <br/>
  
@@ -48,6 +48,14 @@ Hay una herramienta llamada docker compouse, el encargado de leer los archivos .
 ## Listar contenedores levantados
 ```
 > docker ps
+```
+<br/>
+
+<br/>
+
+## Listar imagenes
+```
+>  sudo docker images
 ```
 <br/>
 
@@ -182,6 +190,7 @@ Con el siguieten comando ELIMINAMOS todos los contenedores
 
 <br/>
 
+<a name="view_logs"></a>
 ## Para ver los Logs de un contenedor
 ```
 > sudo docker logs nombre_contenedor
