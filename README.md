@@ -9,9 +9,10 @@ By: Ronal Forero
 * [Correr servicio de Docker](#item1)
 * [Levantar Contenedor](#Levantar_Contenedor)
 * [Listar imagenes creadas](#view_images)
-* [Eliminar imagenes](#delete_images)
+* [Salir de un contenedor sin parar ejecucion](#out_container)
 * [Ver logs del contenedor](#view_logs)
- 
+* [Eliminar imagenes](#delete_images)
+
  <br/>
  
 <a name="item1"></a>
@@ -36,7 +37,6 @@ Hay una herramienta llamada docker compouse, el encargado de leer los archivos .
 
 
 </br>
-
 
 <a name="Levantar_Contenedor"></a>
 ## Levantar un Contenedor
@@ -76,6 +76,7 @@ docker exec -it aqui_va_el_id /bin/bash
 ```
 <br/>
 
+<a name="out_container"></a>
 ## Salir de un contenedor sin detener su ejecucion
 debemos hacer una combinacion de teclas CTRL + P + Q
 
@@ -85,6 +86,7 @@ debemos hacer una combinacion de teclas CTRL + P + Q
 ```
 > exit
 ```
+
 <br/>
 
 ## Eliminar conexiones Network
