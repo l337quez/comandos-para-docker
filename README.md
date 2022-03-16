@@ -56,9 +56,20 @@ Hay una herramienta llamada docker compouse, el encargado de leer los archivos .
 
 <a name="Levantar_Contenedor"></a>
 ## Levantar un Contenedor
+
+Para levantar todos los servicios definidos en el archivo docker-compose.yaml
 ```
 > docker-compose up -d
 ```
+
+<br/>
+
+Si solo queremos levantar un conetedor hacemos lo siguiente
+
+```
+> docker run -d nombre_del contenedor
+```
+
 <br/>
 
 ## Listar contenedores levantados
