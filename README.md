@@ -6,6 +6,7 @@ By: Ronal Forero
  <br/>
 
 ### Índice 
+* [Instalar Docker en GNU Linux ARCH](#install_docker_arch)
 * [Correr servicio de Docker](#item1)
 * [Levantar Contenedor](#Levantar_Contenedor)
 * [Listar imagenes creadas](#view_images)
@@ -14,6 +15,17 @@ By: Ronal Forero
 * [Eliminar imagenes](#delete_images)
 
  <br/>
+ 
+ 
+ <a name="install_docker_arch"></a>
+#### Instalar Docker en GNU Linux ARCH
+
+```
+sudo pacman -S docker docker-compose
+```
+
+</br>
+ 
  
 <a name="item1"></a>
 #### Correr Servicio en Docker
@@ -27,6 +39,7 @@ By: Ronal Forero
 para correr 
 npm start
 ahora debe existir el .env
+
 </br>
 
 Toda la informacion del contenedor, todolo referente a el, se encuentra en un archivo  .yml
