@@ -30,7 +30,9 @@ sudo pacman -S docker docker-compose
 <a name="item1"></a>
 #### Correr Servicio en Docker
 
+```
 > systemctl start docker.service
+``` 
  
 > systemctl enable docker.service
 
