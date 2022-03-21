@@ -174,7 +174,7 @@ Para eliminar una imagen esta no puede estar siendo utilizada en un contenedor
 
 <br/>
 
-## Entrar a mongo dentro de un contendor
+## Entrar a Mongo dentro de un contendor
 Para entrar a mongo en un contenedor, debemos colocar el username y la clave despues del flag
 ```
 > mongo --username username --password password
@@ -183,7 +183,7 @@ Para entrar a mongo en un contenedor, debemos colocar el username y la clave des
 <br/>
 
 
-## Entrar a mongo dentro de un contendor
+## Entrar a Postgres dentro de un contendor
 Para entrar a Postgres en un contenedor, debemos colocar el username y la clave despues del flag
 ```
 > psql -h localhost -p 5432 -U name_user -d name_data_base
