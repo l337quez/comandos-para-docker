@@ -177,7 +177,7 @@ Para eliminar una imagen esta no puede estar siendo utilizada en un contenedor
 ## Entrar a Mongo dentro de un contendor
 Para entrar a mongo en un contenedor, debemos colocar el username y la clave despues del flag
 ```
-> mongo --username username --password password
+> mongo --username user_name --password password
 ```
 
 <br/>
